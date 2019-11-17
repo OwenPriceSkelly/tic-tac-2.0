@@ -1,4 +1,4 @@
-# tic-tac-toe
+# tic-tac-2.0
 
 A just-for-fun [re-frame](https://github.com/day8/re-frame) application implementing "Ultimate Tic Tac Toe" [rules](https://en.wikipedia.org/wiki/Ultimate_tic-tac-toe).
 
