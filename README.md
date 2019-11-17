@@ -1,39 +1,14 @@
 # tic-tac-toe
 
-A [re-frame](https://github.com/day8/re-frame) application designed to ... well, that part is up to you.
-
-## Development Mode
-
-### Start Cider from Emacs:
-
-Refer to the [shadow-cljs Emacs / CIDER documentation](https://shadow-cljs.github.io/docs/UsersGuide.html#cider).
-
-The mentioned `dir-local.el` file has been created.
-
-### Compile css:
-
-Compile css file once.
-
-```
-lein garden once
-```
-
-Automatically recompile css file on change.
-
-```
-lein garden auto
-```
+A just-for-fun [re-frame](https://github.com/day8/re-frame) application implementing "Ultimate Tic Tac Toe" [rules](https://en.wikipedia.org/wiki/Ultimate_tic-tac-toe).
 
 ### Run application:
 
+Requires [leiningen](https://leiningen.org/), though I'm planning to play around with deploying on heroku or somewhere else free eventually. Clone the repository, then in the repository's directory:
+
 ```
 lein clean
-lein dev
+lein prod
 ```
 
-shadow-cljs will automatically push cljs changes to the browser.
-
 Wait a bit, then browse to [http://localhost:8280](http://localhost:8280).
-
-## Production Build
-
